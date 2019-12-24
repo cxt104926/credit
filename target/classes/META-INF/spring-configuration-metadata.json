@@ -1,0 +1,348 @@
+{
+  "groups": [
+    {
+      "name": "credit",
+      "type": "com.paladin.credit.core.CreditProperties",
+      "sourceType": "com.paladin.credit.core.CreditProperties"
+    },
+    {
+      "name": "paladin",
+      "type": "com.paladin.framework.core.configuration.PaladinProperties",
+      "sourceType": "com.paladin.framework.core.configuration.PaladinProperties"
+    },
+    {
+      "name": "paladin.shiro",
+      "type": "com.paladin.framework.core.configuration.shiro.ShiroCasProperties",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroCasProperties"
+    },
+    {
+      "name": "paladin.shiro",
+      "type": "com.paladin.framework.core.configuration.shiro.ShiroProperties",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroProperties"
+    },
+    {
+      "name": "paladin.web",
+      "type": "com.paladin.framework.core.configuration.web.WebProperties",
+      "sourceType": "com.paladin.framework.core.configuration.web.WebProperties"
+    },
+    {
+      "name": "spring.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.paladin.framework.core.configuration.druid.DruidConfiguration",
+      "sourceMethod": "druid()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "credit.default-password",
+      "type": "java.lang.String",
+      "sourceType": "com.paladin.credit.core.CreditProperties",
+      "defaultValue": "1"
+    },
+    {
+      "name": "paladin.cas-enabled",
+      "type": "java.lang.Boolean",
+      "description": "CAS 开关",
+      "sourceType": "com.paladin.framework.core.configuration.PaladinProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "paladin.cluster",
+      "type": "java.lang.Boolean",
+      "description": "是否集群",
+      "sourceType": "com.paladin.framework.core.configuration.PaladinProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "paladin.default-password",
+      "type": "java.lang.String",
+      "description": "默认密码",
+      "sourceType": "com.paladin.framework.core.configuration.PaladinProperties",
+      "defaultValue": "1"
+    },
+    {
+      "name": "paladin.druid-enabled",
+      "type": "java.lang.Boolean",
+      "description": "DRUID 开关",
+      "sourceType": "com.paladin.framework.core.configuration.PaladinProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "paladin.mybatis-enabled",
+      "type": "java.lang.Boolean",
+      "description": "Mybatis 开关",
+      "sourceType": "com.paladin.framework.core.configuration.PaladinProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "paladin.shiro-enabled",
+      "type": "java.lang.Boolean",
+      "description": "SHIRO 开关",
+      "sourceType": "com.paladin.framework.core.configuration.PaladinProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "paladin.shiro.access-time-update-interval",
+      "type": "java.lang.Integer",
+      "description": "session lastAccessTime 更新间隔",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroCasProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "paladin.shiro.access-time-update-interval",
+      "type": "java.lang.Integer",
+      "description": "session lastAccessTime 更新间隔",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "paladin.shiro.app-header-field",
+      "type": "java.lang.String",
+      "description": "APP请求标识",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroCasProperties",
+      "defaultValue": "isApp"
+    },
+    {
+      "name": "paladin.shiro.app-header-field",
+      "type": "java.lang.String",
+      "description": "APP请求标识",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroProperties",
+      "defaultValue": "isApp"
+    },
+    {
+      "name": "paladin.shiro.auth-resource-prefix",
+      "type": "java.lang.String",
+      "description": "需要验证资源前缀，如果为空，表示除静态资源外所有",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroCasProperties"
+    },
+    {
+      "name": "paladin.shiro.auth-resource-prefix",
+      "type": "java.lang.String",
+      "description": "需要验证资源前缀，如果为空，表示除静态资源外所有",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroProperties"
+    },
+    {
+      "name": "paladin.shiro.cas-error-url",
+      "type": "java.lang.String",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroCasProperties",
+      "defaultValue": "\/static\/html\/error_cas_500.html"
+    },
+    {
+      "name": "paladin.shiro.cas-filter-url-pattern",
+      "type": "java.lang.String",
+      "description": "CASFilter",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroCasProperties"
+    },
+    {
+      "name": "paladin.shiro.cas-id-card-field",
+      "type": "java.lang.String",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroCasProperties"
+    },
+    {
+      "name": "paladin.shiro.cas-protocol",
+      "type": "java.lang.String",
+      "description": "CAS 协议",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroCasProperties",
+      "defaultValue": "CAS30"
+    },
+    {
+      "name": "paladin.shiro.cas-server-login-url",
+      "type": "java.lang.String",
+      "description": "CAS 服务端登录URL",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroCasProperties",
+      "defaultValue": "http:\/\/172.16.11.135:8001\/cas\/login"
+    },
+    {
+      "name": "paladin.shiro.cas-server-url",
+      "type": "java.lang.String",
+      "description": "CAS 服务端URL",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroCasProperties",
+      "defaultValue": "http:\/\/172.16.11.135:8001\/cas"
+    },
+    {
+      "name": "paladin.shiro.client-login-url",
+      "type": "java.lang.String",
+      "description": "CAS 客户端登录URL",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroCasProperties"
+    },
+    {
+      "name": "paladin.shiro.client-server-url",
+      "type": "java.lang.String",
+      "description": "客户端URL",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroCasProperties",
+      "defaultValue": "http:\/\/172.16.11.135:8010"
+    },
+    {
+      "name": "paladin.shiro.login-type-field",
+      "type": "java.lang.String",
+      "description": "登录方式session域名，区分本地登录和cas",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroCasProperties",
+      "defaultValue": "_LOGIN_TYPE_FIELD"
+    },
+    {
+      "name": "paladin.shiro.login-type-field",
+      "type": "java.lang.String",
+      "description": "登录方式session域名，区分本地登录和cas",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroProperties",
+      "defaultValue": "_LOGIN_TYPE_FIELD"
+    },
+    {
+      "name": "paladin.shiro.login-url",
+      "type": "java.lang.String",
+      "description": "登录URL",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroCasProperties"
+    },
+    {
+      "name": "paladin.shiro.login-url",
+      "type": "java.lang.String",
+      "description": "登录URL",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroProperties"
+    },
+    {
+      "name": "paladin.shiro.logout-url",
+      "type": "java.lang.String",
+      "description": "登出URL",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroCasProperties"
+    },
+    {
+      "name": "paladin.shiro.logout-url",
+      "type": "java.lang.String",
+      "description": "登出URL",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroProperties"
+    },
+    {
+      "name": "paladin.shiro.redis-enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否启用redis",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroCasProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "paladin.shiro.redis-enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否启用redis",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "paladin.shiro.session-prefix",
+      "type": "java.lang.String",
+      "description": "session 保存在redis中key的前缀",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroCasProperties",
+      "defaultValue": "shiro-session"
+    },
+    {
+      "name": "paladin.shiro.session-prefix",
+      "type": "java.lang.String",
+      "description": "session 保存在redis中key的前缀",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroProperties",
+      "defaultValue": "shiro-session"
+    },
+    {
+      "name": "paladin.shiro.session-time",
+      "type": "java.lang.Integer",
+      "description": "session 在redis中缓存时间",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroCasProperties",
+      "defaultValue": 30
+    },
+    {
+      "name": "paladin.shiro.session-time",
+      "type": "java.lang.Integer",
+      "description": "session 在redis中缓存时间",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroProperties",
+      "defaultValue": 30
+    },
+    {
+      "name": "paladin.shiro.static-resource-prefix",
+      "type": "java.lang.String",
+      "description": "静态资源前缀，多个可用逗号分隔，如果没有则为空",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroCasProperties"
+    },
+    {
+      "name": "paladin.shiro.static-resource-prefix",
+      "type": "java.lang.String",
+      "description": "静态资源前缀，多个可用逗号分隔，如果没有则为空",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroProperties"
+    },
+    {
+      "name": "paladin.shiro.success-url",
+      "type": "java.lang.String",
+      "description": "登录成功跳转URL",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroCasProperties"
+    },
+    {
+      "name": "paladin.shiro.success-url",
+      "type": "java.lang.String",
+      "description": "登录成功跳转URL",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroProperties"
+    },
+    {
+      "name": "paladin.shiro.token-field",
+      "type": "java.lang.String",
+      "description": "token field，如果NULL则不用",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroCasProperties"
+    },
+    {
+      "name": "paladin.shiro.token-field",
+      "type": "java.lang.String",
+      "description": "token field，如果NULL则不用",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroProperties"
+    },
+    {
+      "name": "paladin.shiro.unauthorized-url",
+      "type": "java.lang.String",
+      "description": "未验证跳转页面",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroCasProperties",
+      "defaultValue": "\/static\/html\/error_401.html"
+    },
+    {
+      "name": "paladin.shiro.unauthorized-url",
+      "type": "java.lang.String",
+      "description": "未验证跳转页面",
+      "sourceType": "com.paladin.framework.core.configuration.shiro.ShiroProperties",
+      "defaultValue": "\/static\/html\/error_401.html"
+    },
+    {
+      "name": "paladin.web-enabled",
+      "type": "java.lang.Boolean",
+      "description": "Web 开关",
+      "sourceType": "com.paladin.framework.core.configuration.PaladinProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "paladin.web.favicon-path",
+      "type": "java.lang.String",
+      "description": "图标路径",
+      "sourceType": "com.paladin.framework.core.configuration.web.WebProperties",
+      "defaultValue": "classpath:favicon.ico"
+    },
+    {
+      "name": "paladin.web.file-max-size",
+      "type": "java.lang.Integer",
+      "description": "文件最大M数",
+      "sourceType": "com.paladin.framework.core.configuration.web.WebProperties",
+      "defaultValue": 10
+    },
+    {
+      "name": "paladin.web.file-path",
+      "type": "java.lang.String",
+      "description": "文件存放地址",
+      "sourceType": "com.paladin.framework.core.configuration.web.WebProperties",
+      "defaultValue": "file:D:\/file\/"
+    },
+    {
+      "name": "paladin.web.root-view",
+      "type": "java.lang.String",
+      "description": "root view",
+      "sourceType": "com.paladin.framework.core.configuration.web.WebProperties"
+    },
+    {
+      "name": "paladin.web.static-path",
+      "type": "java.lang.String",
+      "description": "静态资源路径",
+      "sourceType": "com.paladin.framework.core.configuration.web.WebProperties",
+      "defaultValue": "classpath:\/static\/"
+    }
+  ],
+  "hints": []
+}
