@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cfcc351-9fe3-41d3-83f7-d2f9bd5df3a0" name="Default Changelist" comment="" />
+    <list default="true" id="6cfcc351-9fe3-41d3-83f7-d2f9bd5df3a0" name="Default Changelist" comment="24号">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cxt/model/DepartmentAdministrativeLicense.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cxt/controller/ViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cxt/controller/ViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cxt/model/IndexModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/cxtMapper/indexMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/cxtMapper/indexMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -26,6 +33,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1VPI12i5O8sY19ENZRBiBbQcTLO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -35,7 +43,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -103,20 +111,48 @@
       <option name="presentableId" value="Default" />
       <updated>1577148084846</updated>
     </task>
+    <task id="LOCAL-00001" summary="24号">
+      <created>1577173435623</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577173435623</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="24号" />
+    <option name="LAST_COMMIT_MESSAGE" value="24号" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="765" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1577176922705">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1577176922705" />
     <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577151475800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577151475800" />
+    <state x="478" y="111" key="CommitChangelistDialog2" timestamp="1577178452568">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="478" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577178452568" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1577178628910">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577178628910" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1577173321046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577173321046" />
+    <state x="785" y="356" key="Github.ShareDialog" timestamp="1577178547859">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="785" y="356" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577178547859" />
     <state width="1876" height="271" key="GridCell.Tab.0.bottom" timestamp="1577169030510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -133,17 +169,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1876" height="271" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577169030510" />
-    <state x="461" y="151" key="SettingsEditor" timestamp="1577173223830">
+    <state x="461" y="151" key="SettingsEditor" timestamp="1577174640341">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577173223830" />
+    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577174640341" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1577178608467">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577178608467" />
+    <state x="552" y="198" key="scopes" timestamp="1577178138464">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="198" key="scopes/0.0.1920.1040@0.0.1920.1040" timestamp="1577178138464" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1577169787567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577169787567" />
-    <state x="790" y="310" key="svn.repositoryBrowser" timestamp="1577173310304">
+    <state x="790" y="310" key="svn.repositoryBrowser" timestamp="1577174093243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="790" y="310" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1577173310304" />
+    <state x="790" y="310" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1577174093243" />
   </component>
 </project>
